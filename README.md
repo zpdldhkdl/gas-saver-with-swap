@@ -3,6 +3,8 @@
 save gas by using refund.
 for more information about refund, check the [link](https://ethereum.stackexchange.com/questions/594/how-do-gas-refunds-work)
 
+## only works before Eip-1559
+
 ## deploy
 
 ```shell
