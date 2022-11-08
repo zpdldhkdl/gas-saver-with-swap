@@ -1,0 +1,43 @@
+module.exports.GAS_SETTING = {
+  gasLimit: 3000000,
+  gasPrice: "10",
+};
+
+const ChainId = {
+  BSC: 56,
+  BSC_TESTNET: 97,
+};
+
+module.exports.ChainId = ChainId;
+
+module.exports.DEFAULT_USE_BNB = "0.000005";
+module.exports.DEPOSIT_BNB = "0.0001";
+module.exports.SLIPPAGE = 1;
+
+module.exports.MAX_UINT256 =
+  "115792089237316195423570985008687907853269984665640564039457584007913129639935";
+
+module.exports.WBNB = {
+  [ChainId.BSC]: "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+  [ChainId.BSC_TESTNET]: "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+};
+
+module.exports.BUSD = {
+  [ChainId.BSC]: "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+  [ChainId.BSC_TESTNET]: "0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee",
+};
+
+module.exports.USDT = {
+  [ChainId.BSC]: "0x55d398326f99059fF775485246999027B3197955",
+  [ChainId.BSC_TESTNET]: "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd",
+};
+
+module.exports.PANCAKE_SWAP_ROUTER = {
+  [ChainId.BSC]: "0x10ED43C718714eb63d5aA57B78B54704E256024E",
+  [ChainId.BSC_TESTNET]: "0xD99D1c33F9fC3444f8101754aBC46c52416550D1",
+};
+
+module.exports.PANCAKE_SWAP_FACTORY = {
+  [ChainId.BSC]: "0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73",
+  [ChainId.BSC_TESTNET]: "0x6725F303b657a9451d8BA641348b6761A6CC7a17",
+};
