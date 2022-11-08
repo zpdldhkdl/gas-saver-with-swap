@@ -149,3 +149,7 @@ like this 👇
 JUMPI PCResult | xor(0xb09E3af7, shr(0x80, caller()))
     selfdestruct(caller())
 ```
+
+reference
+
+- https://blog.openzeppelin.com/gst2-bytecode-deep-dive/
