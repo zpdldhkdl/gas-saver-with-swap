@@ -1,0 +1,29 @@
+{
+  "name": "gas-saver-with-swap",
+  "version": "1.0.0",
+  "description": "gas-saver-with-swap",
+  "main": "hardhat.config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start:testnet": "node ./example/index.js",
+    "start:mainnet": "NODE_ENV=mainnet node ./example/index.js"
+  },
+  "keywords": [
+    "web3",
+    "pancakeswap",
+    "gas-saver",
+    "solidity",
+    "contract"
+  ],
+  "author": "kyungyeol.baek@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@openzeppelin/contracts": "^4.7.3",
+    "dotenv": "^16.0.3"
+  },
+  "dependencies": {
+    "web3": "^1.8.0"
+  }
+}
