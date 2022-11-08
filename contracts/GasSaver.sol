@@ -11,7 +11,7 @@ contract GasSaver is Ownable {
     using SafeMath for uint;
 
     bytes private subContractBytesCode;
-    address private factory;
+    address public factory;
     uint256 totalMinted;
     uint256 totalBurned;
 
